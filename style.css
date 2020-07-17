@@ -1,14 +1,25 @@
 body {
-    background: rgb(243, 219, 219);
+    background-image: linear-gradient(to right, rgb(171, 224, 245) , rgb(134, 165, 207));
 }
 .alphabet {
    padding: 60px 0; 
 }
-.section-heading {
+
+h3 {
     text-align: center;
-    color: white:
     margin-bottom: 50px;
-    text-transform: uppercase;
-    font-size: 65 px;
     letter-spacing: 2px;
+    color: rgb(35, 6, 139);
+}
+h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 105 px;
+    letter-spacing: 2px;    
+    color: rgb(42, 16, 134);
+}
+.card {
+    background-color: rgb(218, 221, 224);
+    margin-bottom: 20px;
+    box-shadow: 5px 10px #769edb;
 }
